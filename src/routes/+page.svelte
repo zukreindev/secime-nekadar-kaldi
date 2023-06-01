@@ -1,12 +1,4 @@
 <script>
-	let unixToTime = (unix) => {
-		let date = new Date(unix * 1000);
-		let gun = date.getDate();
-		let ay = date.getMonth() + 1;
-		let yil = date.getFullYear();
-		return gun + '/' + ay + '/' + yil;
-	};
-
 	let secimDate = 1841864401 * 1000;
 	let now = Date.now();
 
